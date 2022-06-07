@@ -20,7 +20,7 @@ export default Vue.extend({
     background: blue;
     color: white;
     &:hover {
-        background: blueviolet;
+        background: darkblue;
     }
 }
 </style>

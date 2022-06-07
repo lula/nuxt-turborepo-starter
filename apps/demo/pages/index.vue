@@ -6,7 +6,7 @@
         Click me!
       </c-button>
     </div>
-    <p>Button clicked {{count}} times</p>
+    <p>Button clicked {{count}} times!!!</p>
   </div>
 </template>
 
