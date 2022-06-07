@@ -16,3 +16,15 @@ Install dependencies.
 Run demo app:
 
 `yarn dev`
+
+## Build
+
+Build apps and libs:
+
+`yarn build`
+
+## Generate
+
+Generate Nuxt demo apps:
+
+`yarn generate`
