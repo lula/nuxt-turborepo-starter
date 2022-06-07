@@ -11,7 +11,7 @@ Workspaces:
 
 Install dependencies.
 
-`yarn install`
+`yarn`
 
 Run demo app:
 
