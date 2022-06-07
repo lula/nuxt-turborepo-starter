@@ -4,7 +4,7 @@ import _Vue, { PluginFunction } from "vue";
 import * as components from "@/components/index";
 
 // install function executed by Vue.use()
-const install: PluginFunction<any> = function installClubchainWebUi(
+const install: PluginFunction<any> = function installUi(
   Vue: typeof _Vue
 ) {
   Object.entries(components).forEach(([componentName, component]) => {
