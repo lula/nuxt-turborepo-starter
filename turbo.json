@@ -6,10 +6,17 @@
             "cache": false
         },
         "build": {
-            "dependsOn": ["^build"]
+            "dependsOn": ["^build"],
+            "outputs": [
+                ".nuxt/**",
+                "dist/**"
+            ]
         },
         "generate": {
-            "dependsOn": ["^generate"]
+            "dependsOn": ["^generate"],
+            "outputs": [
+                "dist/**"
+            ]
         }
     }
   }
