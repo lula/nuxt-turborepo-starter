@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "tsconfig/vue-library.json",
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "baseUrl": ".",
+        "types": [
+            "node",
+            "vue"
+        ],
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        },
+        "plugins": [
+            {
+                "transform":"@zerollup/ts-transform-paths",
+                "exclude": ["*"]
+            }
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

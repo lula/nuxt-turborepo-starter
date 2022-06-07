@@ -1,0 +1,22 @@
+{
+  "name": "clubchain-web",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=16",
+    "yarn": "^1"
+  },
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "packageManager": "yarn@1.22.18",
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
